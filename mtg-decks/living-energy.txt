@@ -1,0 +1,193 @@
+# Living Energy (Commander deck)
+
+- Commander: Saheeli, Radiant Creator
+- Product: Aetherdrift Commander (DRC), released 2025-02-14
+- Official decklist: https://magic.wizards.com/en/news/announcements/aetherdrift-commander-decklists
+- Status: unmodified precon. Update this file if the user swaps cards.
+- Analyzed: 2026-10-10 (Scryfall Oracle text, Commander Spellbook combos)
+
+## 1. Summary
+
+Green-blue-red artifacts and energy. Saheeli earns energy whenever you cast artifacts or Artificers. She spends 3 energy each combat to make a hasty 5/5 copy of your best permanent. It ramps hard, collects energy from many sources, and wins with big flyers and Thopter swarms. It can also win with extra combats from Lightning Runner.
+
+## 2. Key cards and combos
+
+**Infinite combos (confirmed on Commander Spellbook):**
+- **Lightning Runner + Aetherwind Basker (two-card infinite):**
+  - **Setup:** you need about 6+ creatures, Basker can't be summoning sick, and neither creature can be blocked and killed.
+  - **Loop:** attack with both. Basker gives 1 energy per creature you control, and Lightning Runner adds 2. Pay 8 to untap everything and get another combat, then repeat for infinite combats and infinite energy.
+- **Saheeli + Lightning Runner + Aetherwind Basker:** the same loop, but Saheeli copies Basker each combat, so it works with fewer creatures. Saheeli triggers at the start of every combat, extra combats included.
+- **Saheeli + Lightning Runner + Peema Aether-Seer:** Saheeli copies Peema each combat. The copy gives energy equal to your biggest creature's power, and you need a creature with 9+ power.
+- **Aethertide Whale + Nissa, Worldsoul Speaker + Panharmonicon:**
+  - **Loop:** cast Whale by paying 8 energy (Nissa's alternative cost). Panharmonicon makes its "enters" trigger happen twice, for 12 energy. Pay 4 to return Whale to your hand, then repeat.
+  - **Result:** the energy breaks even, but you get unlimited enter, leave and cast triggers.
+- **Adding Decoction Module (my own analysis, not listed by Spellbook):** Module gives 1 energy per creature entering, doubled by Panharmonicon. That makes the Whale loop gain 2 energy each time, so it becomes infinite energy.
+  - **Payoffs:** Whirler Virtuoso turns that into infinite flying Thopters. With Reckless Fireweaver out, each Thopter deals 1 damage to each opponent, twice with Panharmonicon, which wins the game. Infinite energy also makes Aetherwind Basker infinitely large.
+
+**Key engines:**
+- **Saheeli's copies:** copies of creatures with "enters" effects are the deck's best value:
+  - Duplicant: the exile is permanent even after the copy is sacrificed.
+  - Territorial Aetherkite: energy plus damage to every other creature.
+  - Whirler Rogue and Pia and Kiran Nalaar: 2 more Thopters each.
+  - Combustible Gearhulk: draw 3 or damage.
+  - Solemn Simulacrum: a land now, and a card when the copy is sacrificed.
+  - Aethertide Whale: 6 energy.
+- **Panharmonicon:** doubles every "enters" trigger from artifacts and creatures, including Saheeli's copies.
+- **Thopter makers:** Sai, Thopter Spy Network, Whirler Virtuoso, Stridehangar Automaton (an extra Thopter whenever you make artifact tokens) and Retrofitter Foundry. Reckless Fireweaver turns every artifact entering into damage.
+- **Energy payoffs:** Nissa (cast permanents for 8 energy), Architect of the Untamed (6/6 for 8), Peema Trailblazer, Aetherworks Marvel and Era of Innovation. Aetheric Amplifier doubles your energy. Aetherflux Conduit's 50-energy ability lets you cast spells from a 7-card draw for free.
+
+## 3. Card balance (my count)
+
+- Lands: 38, including 3 artifact lands.
+- Ramp: about 14 (Sol Ring, Arcane Signet, Commander's Sphere, Talisman of Curiosity, Chromatic Lantern, Aetheric Amplifier, Cultivator's Caravan, Ornithopter of Paradise, Solar Transformer, Servant of the Conduit, Midnight Clock, Explosive Vegetation, Solemn Simulacrum, Bootleggers' Stash), plus Attune with Aether.
+- Card draw: about 11 (Glimmer of Genius, One with the Machine, Rogue Refiner, Thopter Spy Network, Sai, Elder Gargaroth, Peema Trailblazer, Era of Innovation, Bespoke Battlewagon, Combustible Gearhulk, Arcane Denial), plus Adaptive Omnitool and Aetherworks Marvel.
+- Targeted removal: 6 (Chaos Warp, Reality Shift, Duplicant, Confiscation Coup, Druid of Purification, Pia and Kiran Nalaar), plus 2 counterspells (Disallow, Arcane Denial).
+- Board wipes: 3 (Blasphemous Act, Chain Reaction, Aethersquall Ancient), plus Territorial Aetherkite.
+- Protection: Lightning Greaves, the 2 counterspells, and Rampaging Aetherhood's ward.
+
+Ramp and draw are strong. Removal is a little light.
+
+## 4. Mana curve
+
+Nonland cards by mana value: 1: 4 | 2: 13 | 3: 15 | 4: 14 | 5: 5 | 6: 6 | 7+: 4. Average 3.67, the highest of the four decks. Heavy ramp supports it.
+
+Colored symbols: blue 25, red 18, green 17, which is fairly balanced. Chromatic Lantern, Aether Hub, Spire of Industry and the three-color land fix it well.
+
+## 5. Rules to know
+
+- **Energy counters** belong to you, the player, not to a permanent. Paying energy is a cost, so it can't be responded to.
+- **Saheeli's copy** is a "when you do" trigger: you pay energy first, then choose the target.
+  - The copy is a 5/5 artifact creature with haste, even if you copied a land, Vehicle or artifact. A copied Vehicle doesn't need crewing. A copied land can attack and tap for mana.
+  - Copying one of your legendary permanents triggers the legend rule.
+  - The copy is sacrificed at the next end step, so "dies" and "leaves" triggers happen then.
+- **Extra combats (Lightning Runner):** each extra combat has its own beginning-of-combat step, so Saheeli triggers again. You don't get an extra main phase.
+- **Nissa's alternative cost:** paying 8 energy replaces the mana cost. Commander tax still adds {2} per previous cast. You can't combine it with another alternative cost.
+- **Panharmonicon** only doubles triggers caused by an artifact or creature entering. It doesn't double "when you cast" triggers. It doesn't double landfall from normal lands, but it does for the artifact lands (Treasure Vault, Slagwoods Bridge, Tanglepool Bridge), which give Nissa 4 energy instead of 2.
+- **Duplicant:** the exiled card stays exiled for good. The copy's power and toughness come from the exiled card.
+- **Disallow** can counter activated and triggered abilities, not just spells.
+- **Aethersquall Ancient** returns all other creatures, including yours. Tokens returned to hand stop existing.
+- **Midnight Clock** shuffles your hand and graveyard into your library before you draw 7.
+
+## 6. Power level
+
+No Game Changers. It does contain a two-card infinite combo (Lightning Runner + Aetherwind Basker). Bracket 2 says "no intentional two-card infinite combos," and Wizards no longer automatically counts precons as Bracket 2.
+
+It plays at Bracket 2 strength. Tell the table about the Runner + Basker combo, though. If you plan to go for it on purpose, treat the deck as Bracket 3.
+
+## 7. Weak spots and swaps
+
+**Weak spots:**
+- Light removal.
+- Slow if energy sources don't show up early.
+- Saheeli has only Lightning Greaves for protection.
+- Its two board wipes kill its own Thopters.
+
+**Swaps:**
+- **Bootleggers' Stash → Nature's Lore.** Cheaper ramp, and the Forest enters untapped, so it triggers landfall for Nissa and Architect of the Untamed.
+- **Chain Reaction → Beast Within.** An instant answer to anything, instead of a wipe that kills your own board.
+- **Midnight Clock → Talisman of Creativity.** Faster blue-red mana.
+- **Triplicate Titan → Padeem, Consul of Innovation.** Gives your artifacts hexproof and draws cards. Triplicate Titan costs 9.
+
+## Decklist (100 cards)
+
+Commander (1): Saheeli, Radiant Creator
+
+Creature (27):
+1 Aethersquall Ancient
+1 Aethertide Whale
+1 Aetherwind Basker
+1 Architect of the Untamed
+1 Combustible Gearhulk
+1 Druid of Purification
+1 Duplicant
+1 Elder Gargaroth
+1 Lightning Runner
+1 Loyal Apprentice
+1 Nissa, Worldsoul Speaker
+1 Ornithopter of Paradise
+1 Peema Aether-Seer
+1 Peema Trailblazer
+1 Pia Nalaar, Chief Mechanic
+1 Pia and Kiran Nalaar
+1 Rampaging Aetherhood
+1 Reckless Fireweaver
+1 Rogue Refiner
+1 Sai, Master Thopterist
+1 Servant of the Conduit
+1 Solemn Simulacrum
+1 Stridehangar Automaton
+1 Territorial Aetherkite
+1 Triplicate Titan
+1 Whirler Rogue
+1 Whirler Virtuoso
+
+Planeswalker (1):
+1 Saheeli, Sublime Artificer
+
+Instant (5):
+1 Arcane Denial
+1 Chaos Warp
+1 Disallow
+1 Glimmer of Genius
+1 Reality Shift
+
+Sorcery (6):
+1 Attune with Aether
+1 Blasphemous Act
+1 Chain Reaction
+1 Confiscation Coup
+1 Explosive Vegetation
+1 One with the Machine
+
+Artifact (23):
+1 Adaptive Omnitool
+1 Aetherflux Conduit
+1 Aetheric Amplifier
+1 Aetherworks Marvel
+1 Arcane Signet
+1 Bespoke Battlewagon
+1 Bootleggers' Stash
+1 Chromatic Lantern
+1 Commander's Sphere
+1 Conjurer's Closet
+1 Cultivator's Caravan
+1 Decoction Module
+1 Lightning Greaves
+1 Midnight Clock
+1 Panharmonicon
+1 Retrofitter Foundry
+1 Slagwoods Bridge
+1 Sol Ring
+1 Solar Transformer
+1 Soul-Guide Lantern
+1 Talisman of Curiosity
+1 Tanglepool Bridge
+1 Treasure Vault
+
+Enchantment (2):
+1 Era of Innovation
+1 Thopter Spy Network
+
+Land (35):
+1 Academy Ruins
+1 Aether Hub
+1 Command Tower
+1 Evolving Wilds
+1 Exotic Orchard
+6 Forest
+1 Frontier Bivouac
+1 Frostboil Snarl
+1 Hinterland Harbor
+5 Island
+1 Karplusan Forest
+5 Mountain
+1 Overflowing Basin
+1 Path of Ancestry
+1 Rootbound Crag
+1 Sheltered Thicket
+1 Shivan Reef
+1 Spire of Industry
+1 Sulfur Falls
+1 Temple of Epiphany
+1 Vineglimmer Snarl
+1 Yavimaya Coast

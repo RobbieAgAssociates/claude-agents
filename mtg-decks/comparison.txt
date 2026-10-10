@@ -1,0 +1,29 @@
+# The user's four Commander decks: comparison
+
+All four are unmodified official precons (decklists from MTGJSON, which match Wizards' published lists). Card text checked on Scryfall and combos on Commander Spellbook, 2026-10-10. None contains a Game Changer.
+
+| Deck | Commander | Colors | Game plan | Bracket | Strongest at | Weakest at |
+|---|---|---|---|---|---|---|
+| Eternal Might | Temmet, Naktamun's Will | W/U/B | Zombie tokens, loot and discard into 4/4 copies, drain | 2 | Recursion, steady value, removal (9) | Commander protection, tapped lands |
+| Living Energy | Saheeli, Radiant Creator | G/U/R | Energy + artifacts, copy your best permanent each combat, Thopters | 2 (3 if you play for the Runner + Basker infinite) | Ramp (14), explosive turns, the only real infinite combo | Removal (6), highest curve (3.67) |
+| Counter Intelligence | Inspirit, Flagship Vessel | U/R/W | Counters + proliferate on artifacts, Darksteel Reactor / Lux Artillery wins | 2 | Card draw (12), alternate wins, protection once Inspirit is at 8 | Slow start, light removal, artifact wipes |
+| World Shaper | Hearthhull, the Worldseed | B/R/G | Land sacrifice + landfall tokens, drain 2 per land sacrificed | 2 (mention Planetary Annihilation) | Removal (9), ramp, board presence | Protection, graveyard hate |
+
+## Matchups
+
+- **Living Energy** has the highest ceiling. It's the only deck with a real two-card win (Lightning Runner + Aetherwind Basker), and Saheeli can produce huge turns. Its Thopter tokens fold to Eternal Might's Archfiend of Ifnir and to Chain Reaction or Blasphemous Act.
+- **Counter Intelligence** wins out of nowhere with Darksteel Reactor or Lux Artillery. Reactor is indestructible, so only exile, bounce or shuffle effects answer it:
+  - Eternal Might: Cast Out, Despark, Angel of Sanctions.
+  - Living Energy: Chaos Warp.
+  - World Shaper: Tear Asunder, World Breaker. Its "destroy" removal, such as Beast Within, doesn't work on Reactor.
+  Everyone should hold an answer for it.
+- **World Shaper** has the most removal and handles the other decks' engines well. Its exile effects get around Inspirit's indestructible artifacts. It's weak to graveyard hate, and both Living Energy and Counter Intelligence play Soul-Guide Lantern.
+- **Eternal Might** is the grindiest. It keeps coming back from board wipes thanks to its graveyard. World Shaper's Bojuka Bog and Rakdos Charm (graveyard exile) are its biggest problems.
+
+## Keeping games fair
+
+All four play at about the same level (Bracket 2). Before playing, mention two things:
+- Living Energy contains the Lightning Runner + Aetherwind Basker infinite.
+- World Shaper contains Planetary Annihilation.
+
+If one deck keeps winning, the suggested swaps in each file are small, Bracket-2-safe upgrades for the other decks.

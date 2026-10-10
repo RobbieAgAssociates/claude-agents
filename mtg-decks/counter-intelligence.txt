@@ -1,0 +1,185 @@
+# Counter Intelligence (Commander deck)
+
+- Commander: Inspirit, Flagship Vessel
+- Product: Edge of Eternities Commander (EOC), released 2025-08-01
+- Official decklist: https://magic.wizards.com/en/news/announcements/edge-of-eternities-commander-decklists
+- Status: unmodified precon. Update this file if the user swaps cards.
+- Analyzed: 2026-10-10 (Scryfall Oracle text, Commander Spellbook combos)
+
+## 1. Summary
+
+Blue-red-white artifacts and counters. Inspirit is a Spacecraft you "station" by tapping your creatures. Once it reaches 8 counters it flies and makes all your other artifacts hexproof and indestructible. The deck stacks charge and +1/+1 counters on artifacts, then multiplies them with proliferate. It wins with Darksteel Reactor (20 counters = you win), Lux Artillery (10 damage to each opponent) or a big artifact army.
+
+## 2. Key cards and combos
+
+No infinite combos (checked on Commander Spellbook). Its main win lines:
+
+- **Darksteel Reactor + proliferate:** Reactor gains a counter each upkeep, and every proliferate adds another. Reaching 20 wins the game immediately at any moment, even mid-turn. Reactor is indestructible on its own.
+- **Deepglow Skate:** doubles every kind of counter on any number of permanents. A Reactor at 10+ goes to 20+, so you win on the spot. It also doubles Lux Artillery's count, Inspirit's charge counters and +1/+1 counters.
+- **Lux Artillery:** at your end step, if your artifacts and creatures have 30+ counters in total (charge and +1/+1 both count), it deals 10 damage to each opponent, every turn. It also gives your artifact creature spells sunburst.
+- **Tekuthal, Inquiry Dominus:** every proliferate happens twice. It also triggers Kilo twice as often, in effect.
+- **Kilo, Apogee Mind:** proliferates whenever it becomes tapped, whether by attacking (it has haste), stationing Inspirit, or paying for improvise (Organic Extinction, Kappa Cannoneer, Universal Surveillance). Tapping Kilo to station Inspirit adds 3 charge counters plus a proliferate, and the proliferate resolves first.
+- **Inspirit at 8+:** protects your whole artifact board from targeted and "destroy" removal, including board wipes like Wrath of God. It doesn't stop exile, sacrifice, -X/-X or bounce.
+- **Other counter engines:** Steel Overseer, Coretapper, Surge Conductor (proliferate whenever a nontoken artifact enters), Resourceful Defense (moves counters off dying permanents), Moxite Refinery, Thrummingbird, Experimental Augury and Tezzeret's Gambit.
+- **Big mana:** Astral Cornucopia and Empowered Autogenerator grow with proliferate. Pentad Prism and Everflowing Chalice too.
+- **Card draw:** Insight Engine, Uthros Research Craft (draw for each artifact spell once stationed to 3), Jhoira (draw for each artifact or legendary spell) and Universal Surveillance.
+
+## 3. Card balance (my count)
+
+- Lands: 40, including 7 artifact lands.
+- Ramp: about 11 (Sol Ring, Arcane Signet, Pentad Prism, Everflowing Chalice, Astral Cornucopia, Empowered Autogenerator, Solar Array, Crystalline Crawler, Etherium Sculptor, Enthusiastic Mechanaut, Cloud Key).
+- Card draw: about 12 (Insight Engine, Uthros Research Craft, Thought Monitor, Universal Surveillance, Pull from Tomorrow, Tezzeret's Gambit, Thirst for Knowledge, Experimental Augury, Jhoira, Etched Oracle, Mindless Automaton, Long-Range Sensor).
+- Targeted removal: 6 (Swords to Plowshares, Dispatch, Chaos Warp, Lux Cannon, Angel of the Ruins, Alibou), plus Swan Song.
+- Board wipes: 3 (Fumigate, Organic Extinction, which spares your artifact creatures, and Chain Reaction).
+- Protection: Inspirit at 8+, Ripples of Potential (phase out), Swan Song, Resourceful Defense, indestructible Bridge lands, and Kappa Cannoneer's ward.
+
+This is the best card draw of the four decks. Removal is on the light side.
+
+## 4. Mana curve
+
+Nonland cards by mana value (X counted as 0): 0: 3 | 1: 5 | 2: 12 | 3: 16 | 4: 12 | 5: 3 | 6: 2 | 7+: 6. Average 3.34. Cost reducers (Etherium Sculptor, Enthusiastic Mechanaut, Cloud Key) and improvise/affinity cards play cheaper than their printed costs.
+
+Colored symbols: blue 26, white 13, red 11. Mostly blue. Inspirit itself needs all three colors.
+
+## 5. Rules to know
+
+- **Station:**
+  - Tap another untapped creature you control to put charge counters on the Spacecraft equal to that creature's power.
+  - Sorcery speed only.
+  - The cost taps another creature rather than using a {T} ability, so creatures that just arrived should be usable, the same as with crew. Confirm this against the current CR if it comes up.
+  - Each threshold ("1+", "8+") turns on once the counter count is reached. At 8+ Inspirit becomes an artifact creature.
+- **Inspirit's 1+ ability** targets "up to one other artifact" each combat. You choose a +1/+1 counter or two charge counters. Use charge counters on Darksteel Reactor or Lux Cannon.
+- **Proliferate:** choose any number of permanents and players that already have counters. Each gets one more of every kind it has. You can skip opponents' permanents.
+- **Darksteel Reactor's win** happens as soon as it has 20 counters (a "state trigger"). It doesn't wait for your upkeep. Opponents can respond only by removing counters or stopping the trigger.
+- **Lux Artillery** checks at the beginning of your end step. Charge and +1/+1 counters on your artifacts and creatures all count, including Inspirit's.
+- **Phasing (Ripples of Potential):** phased-out permanents are treated as if they don't exist until your next untap, so wipes miss them. Counters and Equipment stay with them.
+- **Improvise** lets you tap artifacts to pay generic mana. Tapping Kilo that way triggers its proliferate.
+- **Phyrexian mana ({U/P}):** you can pay 2 life instead of {U}. It still counts as blue for color identity.
+- **Sunburst / converge** count the different colors of mana spent, so pay with colored mana, not Sol Ring.
+- **Inspirit isn't a creature below 8 counters,** so it can't attack or deal commander damage until then.
+
+## 6. Power level
+
+No Game Changers, no two-card infinite combos and no mass land denial. It fits Bracket 2 (Core). Darksteel Reactor and Lux Artillery wins can come out of nowhere, so mention them to new players.
+
+## 7. Weak spots and swaps
+
+**Weak spots:**
+- Inspirit needs creatures to tap, and only about 25 of the cards are creatures.
+- Before Inspirit reaches 8 counters, artifact wipes hurt badly.
+- Few counterspells.
+- Chain Reaction kills your own artifact creatures.
+
+**Swaps (all stay Bracket 2):**
+- **Thrummingbird → Flux Channeler.** Proliferate on every noncreature spell, which is most of this deck, instead of needing combat damage.
+- **Mindless Automaton → Inexorable Tide.** Proliferate on every spell you cast.
+- **Secluded Steppe → Inventors' Fair.** A land that finds Darksteel Reactor, Lux Artillery or Steel Overseer when needed.
+
+## Decklist (100 cards)
+
+Commander (1): Inspirit, Flagship Vessel
+
+Creature (25):
+1 Alibou, Ancient Witness
+1 Angel of the Ruins
+1 Chrome Host Seedshark
+1 Coretapper
+1 Crystalline Crawler
+1 Cyberdrive Awakener
+1 Deepglow Skate
+1 Depthshaker Titan
+1 Emry, Lurker of the Loch
+1 Enthusiastic Mechanaut
+1 Etched Oracle
+1 Etherium Sculptor
+1 Hangarback Walker
+1 Jhoira, Weatherlight Captain
+1 Kappa Cannoneer
+1 Kilo, Apogee Mind
+1 Mindless Automaton
+1 Patrolling Peacemaker
+1 Phyrexian Metamorph
+1 Steel Overseer
+1 Surge Conductor
+1 Tekuthal, Inquiry Dominus
+1 Thought Monitor
+1 Threefold Thunderhulk
+1 Thrummingbird
+
+Instant (8):
+1 Chaos Warp
+1 Dispatch
+1 Experimental Augury
+1 Pull from Tomorrow
+1 Ripples of Potential
+1 Swan Song
+1 Swords to Plowshares
+1 Thirst for Knowledge
+
+Sorcery (6):
+1 Chain Reaction
+1 Fumigate
+1 Organic Extinction
+1 Tezzeret's Gambit
+1 Universal Surveillance
+1 Wake the Past
+
+Artifact (25):
+1 Ancient Den
+1 Arcane Signet
+1 Astral Cornucopia
+1 Cloud Key
+1 Darksteel Reactor
+1 Empowered Autogenerator
+1 Everflowing Chalice
+1 Gavel of the Righteous
+1 Golem Foundry
+1 Great Furnace
+1 Insight Engine
+1 Long-Range Sensor
+1 Lux Artillery
+1 Lux Cannon
+1 Moxite Refinery
+1 Pentad Prism
+1 Razortide Bridge
+1 Rustvale Bridge
+1 Seat of the Synod
+1 Silverbluff Bridge
+1 Sol Ring
+1 Solar Array
+1 Soul-Guide Lantern
+1 Titan Forge
+1 Uthros Research Craft
+
+Enchantment (1):
+1 Resourceful Defense
+
+Land (34):
+1 Adarkar Wastes
+1 Battlefield Forge
+1 Buried Ruin
+1 Cascade Bluffs
+1 Clifftop Retreat
+1 Command Tower
+1 Evolving Wilds
+1 Exotic Orchard
+1 Glacial Fortress
+1 Glittering Massif
+1 Irrigated Farmland
+3 Island
+1 Karn's Bastion
+1 Lonely Sandbar
+3 Mountain
+1 Mystic Monastery
+3 Plains
+1 Radiant Summit
+1 Rugged Prairie
+1 Secluded Steppe
+1 Shivan Reef
+1 Skycloud Expanse
+1 Spire of Industry
+1 Sulfur Falls
+1 Temple of Enlightenment
+1 Temple of Epiphany
+1 Temple of Triumph
+1 The Mycosynth Gardens

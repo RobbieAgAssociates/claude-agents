@@ -1,0 +1,185 @@
+# Eternal Might (Commander deck)
+
+- Commander: Temmet, Naktamun's Will
+- Product: Aetherdrift Commander (DRC), released 2025-02-14
+- Official decklist: https://magic.wizards.com/en/news/announcements/aetherdrift-commander-decklists
+- Status: unmodified precon. Update this file if the user swaps cards.
+- Analyzed: 2026-10-10 (Scryfall Oracle text, Commander Spellbook combos)
+
+## 1. Summary
+
+White-blue-black Zombies. Temmet loots every time you attack, and every card you draw pumps your Zombies. Discarded creatures come back as 4/4 Zombie token copies (Hashaton, The Scarab God, God-Pharaoh's Gift, embalm/eternalize). It wins by going wide with buffed Zombie tokens, backed by "drain 1" effects whenever Zombies enter or die.
+
+## 2. Key cards and combos
+
+No infinite combos (checked on Commander Spellbook). The deck wins through these engines:
+
+- **Temmet, Naktamun's Will (commander):** each attack = loot (draw, then discard). The draw gives every Zombie +1/+1. Each card drawn is a separate trigger, so Pull from Tomorrow for X=5 gives Zombies +5/+5 that turn.
+- **Hashaton, Scarab's Fist:** whenever you discard a creature card, pay {2}{U} to make a tapped 4/4 Zombie token copy of it. The copy keeps the card's abilities, including "when this enters" effects. This is the deck's best engine.
+  - **Discard outlets that feed it:** Temmet's loot, Champion of Wits, Forgotten Creation, Cryptbreaker, Pull from Tomorrow, Gate to the Afterlife, and cycling.
+  - **Rhet-Tomb Mystic + Hashaton:** Mystic gives every creature card in your hand cycling {1}{U}. Cycling counts as discarding, so you can cycle Grave Titan, then pay {2}{U} for a 4/4 Grave Titan copy that still makes two 2/2 Zombies, while drawing a card.
+- **Archfiend of Ifnir:** every cycle or discard puts a -1/-1 counter on each creature your opponents control. With Temmet's loot plus Rhet-Tomb Mystic it works as a repeatable one-sided board wipe.
+- **Lazotep Chancellor:** every discard, pay {1} to amass 2. This stacks with Hashaton on the same discard.
+- **The Scarab God:** drains each opponent for X every upkeep, where X is the number of Zombies you control. It also turns creature cards in any graveyard into 4/4 Zombies. If it dies, it returns to your hand.
+- **Maskwood Nexus:** makes all your creatures every creature type, so non-Zombies count for Temmet's pump, lords, Scarab God, Prophet of the Scarab and Rot Hulk.
+- **Gate to the Afterlife → God-Pharaoh's Gift:** once you have 6+ creature cards in your graveyard, sacrifice Gate to fetch Gift straight onto the battlefield, skipping its 7-mana cost. Gift then makes a hasty 4/4 copy of a creature from your graveyard every turn.
+- **Anthems:** Cemetery Reaper, Lord of the Accursed, Renewed Solidarity, On Wings of Gold (+1/+1 and flying for Zombies and tokens), Eternal Skylord (flying for Zombie tokens).
+- **Drains:** Corpse Knight, Wayward Servant, Plague Belcher, Bontu's Monument, Gempalm Polluter (cycle it to drain).
+- **Card draw:** Midnight Reaper and Undead Augur draw when your Zombies die. Prophet of the Scarab draws a pile.
+
+## 3. Card balance (my count)
+
+- Lands: 39
+- Ramp: 9, all mana rocks and cost reducers (Sol Ring, Arcane Signet, Commander's Sphere, Dimir Signet, Orzhov Signet, Talisman of Dominance, Talisman of Hierarchy, Crowded Crypt, Bontu's Monument). No land-search ramp.
+- Card draw: about 10 real sources, plus Temmet's loot and many cycling cards.
+- Targeted removal: 9 (Swords to Plowshares, Swift End, Never, Damn, Despark, Cast Out, Angel of Sanctions, Fleshbag Marauder, Archfiend of Ifnir).
+- Board wipes: 2 (Damn when overloaded, Dusk), plus Liliana's −7.
+- Protection: weak. Only Zombie Master's regeneration, Gleaming Overseer (hexproof for Zombie tokens) and Accursed Duneyard. Nothing protects Temmet.
+- Recursion: very strong (Gravecrawler, Dawn, Liliana −3, Rot Hulk, Lost Monarch, Scarab God, Gift, Unholy Grotto, embalm/eternalize).
+
+Compared with a typical baseline (36–38 lands, 10 ramp, 10 draw, 8–10 removal, 2–4 wipes), it is right on target except for protection.
+
+## 4. Mana curve
+
+Nonland cards by mana value (X counted as 0, split cards by front half): 1: 4 | 2: 18 | 3: 15 | 4: 9 | 5: 8 | 6: 4 | 7+: 2. Average 3.32. The curve is low and smooth, with plenty of 2-drops.
+
+Colored symbols: black 44, white 21, blue 14. Black is the main color. The deck has many white-black and blue-black dual lands, but 3 cycling Deserts and several other lands enter tapped, so it can be slow on turns 1–3.
+
+## 5. Rules to know
+
+- **Temmet's draw trigger** fires once per card drawn, so cycling or loots during combat all pump your Zombies.
+- **Hashaton / Scarab God / Gift token copies** copy the printed card, but as a 4/4 black Zombie. "When this enters" abilities trigger. A copy of a legendary creature you already control triggers the legend rule, and you keep one of the two.
+- **Embalm and eternalize** are sorcery-speed only. The token has no mana cost, so its mana value is 0. They are activated abilities, not casting, so God-Eternal Oketra and Bontu's Monument don't trigger.
+- **Dusk** destroys creatures whose power is 3 or more when it resolves. Your Zombies count that power with anthems included, so lords can make Dusk hit your own board.
+- **Aftermath (Dawn, Return):** the second half can only be cast from your graveyard, and the card is then exiled.
+- **Amass:** if you control an Army, it gets the counters. Otherwise you create a 0/0 Zombie Army token first. Renewed Solidarity copies of an Army token don't copy its counters, so the copy is 0/0 (or 1/0) and dies right away (CR 704.5f).
+- **Zombie Master's swampwalk** only works against a player who controls a Swamp, which includes dual lands with the Swamp type.
+- **Afflict** triggers when the creature becomes blocked, not when it deals damage.
+- **Rot Hulk** returns Zombies equal to your number of opponents (3 in a 4-player game).
+- **Gravecrawler** can be cast from your graveyard whenever you control a Zombie. It can't block.
+- **The Scarab God** returns to hand only if it dies. Exile stops it.
+
+## 6. Power level
+
+No Game Changers, no two-card infinite combos and no mass land denial. It fits Bracket 2 (Core).
+
+## 7. Weak spots and swaps
+
+**Weak spots:**
+- No commander protection.
+- No free sacrifice outlet.
+- Relies on your graveyard, so graveyard hate (Bojuka Bog, Rest in Peace) hurts it.
+- Lots of tapped lands.
+
+**Swaps (all stay Bracket 2):**
+- **Accursed Duneyard → Swiftfoot Boots.** Protects Temmet. Duneyard is a colorless land in a 3-color deck.
+- **Zombie Master → Diregraf Captain.** A Zombie lord with deathtouch that drains when your Zombies die, instead of swampwalk that only works against black players.
+- **Binding Mummy → Carrion Feeder.** A 1-mana Zombie sacrifice outlet that triggers Midnight Reaper, Undead Augur, Plague Belcher and Priest of the Crossing on demand.
+
+Avoid Phyrexian Altar: with Gravecrawler it makes a two-card infinite, which pushes the deck to Bracket 3.
+
+## Decklist (100 cards)
+
+Commander (1): Temmet, Naktamun's Will
+
+Creature (35):
+1 Angel of Sanctions
+1 Archfiend of Ifnir
+1 Binding Mummy
+1 Cemetery Reaper
+1 Champion of Wits
+1 Corpse Augur
+1 Corpse Knight
+1 Cryptbreaker
+1 Eternal Skylord
+1 Fleshbag Marauder
+1 Forgotten Creation
+1 Gempalm Polluter
+1 Gleaming Overseer
+1 God-Eternal Oketra
+1 Grave Titan
+1 Gravecrawler
+1 Hashaton, Scarab's Fist
+1 Lazotep Chancellor
+1 Lord of the Accursed
+1 Lost Monarch of Ifnir
+1 Midnight Reaper
+1 Murderous Rider // Swift End
+1 Plague Belcher
+1 Priest of the Crossing
+1 Prophet of the Scarab
+1 Rhet-Tomb Mystic
+1 Rot Hulk
+1 The Scarab God
+1 Timeless Dragon
+1 Twisted Abomination
+1 Undead Augur
+1 Vizier of Many Faces
+1 Wayward Servant
+1 Wizened Mentor
+1 Zombie Master
+
+Planeswalker (1):
+1 Liliana, Death's Majesty
+
+Instant (4):
+1 Commence the Endgame
+1 Despark
+1 Pull from Tomorrow
+1 Swords to Plowshares
+
+Sorcery (4):
+1 Damn
+1 Dread Summons
+1 Dusk // Dawn
+1 Never // Return
+
+Artifact (12):
+1 Arcane Signet
+1 Bontu's Monument
+1 Commander's Sphere
+1 Crowded Crypt
+1 Dimir Signet
+1 Gate to the Afterlife
+1 God-Pharaoh's Gift
+1 Maskwood Nexus
+1 Orzhov Signet
+1 Sol Ring
+1 Talisman of Dominance
+1 Talisman of Hierarchy
+
+Enchantment (4):
+1 Cast Out
+1 Dreadhorde Invasion
+1 On Wings of Gold
+1 Renewed Solidarity
+
+Land (39):
+1 Accursed Duneyard
+1 Adarkar Wastes
+1 Arcane Sanctum
+1 Ash Barrens
+1 Caves of Koilos
+1 Command Tower
+1 Desert of the Glorified
+1 Desert of the Mindful
+1 Desert of the True
+1 Drowned Catacomb
+1 Evolving Wilds
+1 Exotic Orchard
+1 Fetid Pools
+1 Glacial Fortress
+1 Irrigated Farmland
+4 Island
+1 Isolated Chapel
+1 Orzhov Basilica
+1 Path of Ancestry
+5 Plains
+1 Prairie Stream
+1 Sunken Hollow
+5 Swamp
+1 Temple of Deceit
+1 Temple of Silence
+1 Terramorphic Expanse
+1 Underground River
+1 Unholy Grotto

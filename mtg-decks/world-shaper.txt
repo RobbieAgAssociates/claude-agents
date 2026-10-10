@@ -1,0 +1,194 @@
+# World Shaper (Commander deck)
+
+- Commander: Hearthhull, the Worldseed
+- Product: Edge of Eternities Commander (EOC), released 2025-08-01
+- Official decklist: https://magic.wizards.com/en/news/announcements/edge-of-eternities-commander-decklists
+- Status: unmodified precon. Update this file if the user swaps cards.
+- Analyzed: 2026-10-10 (Scryfall Oracle text, Commander Spellbook combos)
+
+## 1. Summary
+
+Black-red-green lands deck. Hearthhull is a Spacecraft you station by tapping creatures. Once stationed, it sacrifices lands to draw cards. At 8+ counters it flies with haste, and every land you sacrifice makes each opponent lose 2 life. The deck ramps hard, sacrifices fetch-style lands, replays lands from the graveyard, and turns each land entering or dying into tokens, damage and extra combats.
+
+## 2. Key cards and combos
+
+**Infinite loop (confirmed on Commander Spellbook):**
+- **The Gitrog Monster + Dakmor Salvage (two-card loop):**
+  - **Setup:** you need more cards in hand than your maximum hand size.
+  - **Loop:** in your cleanup step, discard Dakmor Salvage. Gitrog makes you draw. Replace that draw with dredge 2 (mill 2, return Dakmor to hand). You're over hand size again, so repeat. Every land milled draws another card.
+  - **Result:** you mill as much of your library as you like, but it doesn't win by itself. Dredge is optional, so you can stop at any point. Don't mill yourself out.
+  - **Payoffs:** a full graveyard of lands powers Splendid Reclamation, Aftermath Analyst, Multani, Uurg, Centaur Vinecrasher and Formless Genesis.
+
+**Key engines:**
+- **Hearthhull at 8+ (commander):** every land you sacrifice drains 2 from each opponent. Fetch-style lands each count once, including Evolving Wilds, Terramorphic Expanse, Fabled Passage, Myriad Landscape, Escape Tunnel, Rocky Tar Pit, Mountain Valley, and the three Courtyard/Theater/Overlook lands. So do Harrow, Roiling Regrowth, Springbloom Druid, Evendo Brushrazer, Sprouting Goblin, Baloth Prime, Uurg and Gitrog's upkeep cost.
+- **Szarel, Genesis Shepherd:** play lands from your graveyard. You can replay the same fetch-style land every turn for repeated drains, landfall and Titania tokens. Szarel also puts +1/+1 counters on a creature whenever you sacrifice a nontoken permanent on your turn.
+- **Titania, Protector of Argoth:** a 5/3 Elemental whenever one of your lands goes to the graveyard from the battlefield. With Omnath, Locus of Rage, each of those Elementals deals 3 damage when it dies.
+- **Landfall:** Rampaging Baloths (4/4s), Omnath (5/5s), Tireless Tracker (Clues) and Moraug.
+  - Moraug gives an extra combat for each land entering in your main phase.
+  - A fetch-style land triggers landfall twice: once when it enters and once for the land it fetches.
+- **Sacrifice payoffs:**
+  - Mayhem Devil: 1 damage whenever any player sacrifices anything.
+  - Korvold: draws a card and grows on every sacrifice.
+  - Juri and Mazirek grow on sacrifices.
+  - Baloth Prime: a 4/4 per land sacrifice, and it untaps.
+- **Hearthhull + Mayhem Devil + Titania:** one fetch-style land sacrifice = 2 life from each opponent, 1 damage to any target, a 5/3 token, and landfall twice.
+- **Planetary Annihilation:** every player keeps six lands, sacrifices the rest, then all creatures take 6 damage.
+  - Your sacrificed lands drain opponents through Hearthhull, and Mayhem Devil triggers for every land any player sacrifices.
+  - Titania's tokens and Baloth Prime's Beasts are created after the damage, so they survive. Only cast it with Titania out and lots of lands.
+
+## 3. Card balance (my count)
+
+- Lands: 42. That's high, but lands are this deck's resource.
+- Ramp: about 13 (Sol Ring, Arcane Signet, Farseek, Nature's Lore, Cultivate, Harrow, Roiling Regrowth, Skyshroud Claim, Springbloom Druid, Oracle of Mul Daya, Exploration Broodship, Augur of Autumn, Horizon Explorer), plus Evendo Brushrazer, Sprouting Goblin and Binding the Old Gods.
+- Card draw: about 11 (Hearthhull, The Gitrog Monster, Korvold, Tireless Tracker, Night's Whisper, Escape to the Wilds, Braids, God-Eternal Bontu, Eumidian Wastewaker, Sprouting Goblin, Soul of Windgrace).
+- Targeted removal: 9 (Infernal Grasp, Putrefy, Beast Within, Tear Asunder, Windgrace's Judgment, Binding the Old Gods, Rakdos Charm, World Breaker, Pest Infestation).
+- Board wipes: 3 (Blasphemous Act, Gaze of Granite, Planetary Annihilation).
+- Protection: almost none (only Soul of Windgrace can make itself indestructible).
+
+This has the best removal of the four decks and the weakest protection.
+
+## 4. Mana curve
+
+Nonland cards by mana value (X counted as 0): 1: 4 | 2: 12 | 3: 18 | 4: 8 | 5: 9 | 6: 3 | 7+: 3. Average 3.51. Heavy ramp means 5-drops come down around turn 4.
+
+Colored symbols: green 46, black 24, red 19. It's a green deck splashing black and red. Omnath needs {R}{R}{G}{G}. Most ramp spells only find basic lands, so keep enough Mountains and Swamps in the deck.
+
+## 5. Rules to know
+
+- **Station** works the same as on Inspirit: tap other creatures, sorcery speed, counters equal to their power. Hearthhull's 2+ ability needs only 2 counters and is the early card-draw engine. It only gives extra land drops on your own turn.
+- **Hearthhull isn't a creature below 8 counters,** so it can't attack or block until then. As an artifact, it dies to artifact removal.
+- **Fetch-style lands** are sacrificed as a cost, so triggers for "whenever you sacrifice a land" (Hearthhull, Baloth Prime, Mayhem Devil) and "land put into a graveyard" (Titania, Gitrog) all fire.
+- **Moraug:**
+  - Landfall gives an extra combat phase but no extra main phase.
+  - A land entering in your precombat main phase puts the extra combat before your normal one.
+  - Your creatures untap at the start of each extra combat. Lands entering during combat don't trigger it.
+- **Gitrog's upkeep:** sacrifice a land or sacrifice Gitrog. The land sacrifice also triggers Gitrog's draw and Hearthhull's drain.
+- **Dredge** replaces a draw, and you choose each time. You can only dredge if you have at least 2 cards in your library.
+- **Planetary Annihilation:**
+  - Players choose their six lands in turn order, then everyone sacrifices at the same time, then damage is dealt.
+  - Triggers wait until it finishes resolving, then go on the stack in turn order.
+  - Mayhem Devil's damage triggers still resolve even though the Devil died to the 6 damage, because the abilities exist on their own.
+- **Szarel / Ramunap-style effects** let you play a land from your graveyard. It still uses your land drop for the turn.
+- **Aftermath Analyst and Splendid Reclamation** return all lands tapped. Each one triggers landfall separately (many Omnath and Baloths tokens).
+
+## 6. Power level
+
+No Game Changers. It has a two-card loop (Gitrog + Dakmor Salvage), but the loop only mills and draws, so it doesn't win by itself.
+
+Many playgroups treat Planetary Annihilation as mass land destruction, which the Bracket 1–3 guidelines say not to expect. Mention it before the game, or swap it out.
+
+It plays at Bracket 2 (Core).
+
+## 7. Weak spots and swaps
+
+**Weak spots:**
+- Graveyard hate (an opponent's Bojuka Bog or Rest in Peace) shuts off Szarel, Gitrog and the land recursion.
+- Hearthhull is a slow artifact commander with no protection.
+- Few instant-speed answers.
+
+**Swaps (all stay Bracket 2):**
+- **Groundskeeper → Sylvan Safekeeper.** A free, instant-speed land sacrifice that also protects a creature by giving it shroud. Each activation triggers Hearthhull, Titania, Mayhem Devil, Baloth Prime and Korvold.
+- **Planetary Annihilation → Ramunap Excavator.** Only if your group treats it as land destruction. Excavator backs up Szarel by letting you replay lands from the graveyard.
+- **Wastes → Dryad of the Ilysian Grove.** An extra land drop each turn, and it makes all your lands every basic type, which fixes Omnath's double red and green. The deck still has plenty of colorless mana for World Breaker.
+
+## Decklist (100 cards)
+
+Commander (1): Hearthhull, the Worldseed
+
+Creature (31):
+1 Aftermath Analyst
+1 Augur of Autumn
+1 Baloth Prime
+1 Braids, Arisen Nightmare
+1 Centaur Vinecrasher
+1 Eumidian Wastewaker
+1 Evendo Brushrazer
+1 God-Eternal Bontu
+1 Groundskeeper
+1 Horizon Explorer
+1 Juri, Master of the Revue
+1 Korvold, Fae-Cursed King
+1 Loamcrafter Faun
+1 Mayhem Devil
+1 Mazirek, Kraul Death Priest
+1 Moraug, Fury of Akoum
+1 Multani, Yavimaya's Avatar
+1 Omnath, Locus of Rage
+1 Oracle of Mul Daya
+1 Rampaging Baloths
+1 Satyr Wayfinder
+1 Scouring Swarm
+1 Soul of Windgrace
+1 Springbloom Druid
+1 Sprouting Goblin
+1 Szarel, Genesis Shepherd
+1 The Gitrog Monster
+1 Tireless Tracker
+1 Titania, Protector of Argoth
+1 Uurg, Spawn of Turg
+1 World Breaker
+
+Instant (8):
+1 Beast Within
+1 Harrow
+1 Infernal Grasp
+1 Putrefy
+1 Rakdos Charm
+1 Roiling Regrowth
+1 Tear Asunder
+1 Windgrace's Judgment
+
+Sorcery (13):
+1 Blasphemous Act
+1 Cultivate
+1 Escape to the Wilds
+1 Farseek
+1 Formless Genesis
+1 Gaze of Granite
+1 Nature's Lore
+1 Night's Whisper
+1 Pest Infestation
+1 Planetary Annihilation
+1 Skyshroud Claim
+1 Splendid Reclamation
+1 Worldsoul's Rage
+
+Artifact (4):
+1 Arcane Signet
+1 Exploration Broodship
+1 Hammer of Purphoros
+1 Sol Ring
+
+Enchantment (1):
+1 Binding the Old Gods
+
+Land (42):
+1 Bojuka Bog
+1 Cabaretti Courtyard
+1 Canyon Slough
+1 Cinder Glade
+1 Command Tower
+1 Dakmor Salvage
+1 Escape Tunnel
+1 Eumidian Hatchery
+1 Evolving Wilds
+1 Fabled Passage
+1 Festering Thicket
+8 Forest
+1 Karplusan Forest
+1 Llanowar Wastes
+1 Maestros Theater
+3 Mountain
+1 Mountain Valley
+1 Myriad Landscape
+1 Riveteers Overlook
+1 Rocky Tar Pit
+1 Sheltered Thicket
+1 Smoldering Marsh
+1 Sulfurous Springs
+5 Swamp
+1 Terramorphic Expanse
+1 Twilight Mire
+1 Vernal Fen
+1 Viridescent Bog
+1 Wastes
