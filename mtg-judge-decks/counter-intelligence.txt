@@ -46,7 +46,7 @@ Colored symbols: blue 26, white 13, red 11. Mostly blue. Inspirit itself needs a
 - **Station:**
   - Tap another untapped creature you control to put charge counters on the Spacecraft equal to that creature's power.
   - Sorcery speed only.
-  - The cost taps another creature rather than using a {T} ability, so creatures that just arrived should be usable, the same as with crew. Confirm this against the current CR if it comes up.
+  - Creatures that just arrived can be tapped for station. Station is the Spacecraft's own ability (CR 702.184a), and summoning sickness only stops a creature's own {T} abilities and attacks (CR 302.6). Confirmed 2026-10-10.
   - Each threshold ("1+", "8+") turns on once the counter count is reached. At 8+ Inspirit becomes an artifact creature.
 - **Inspirit's 1+ ability** targets "up to one other artifact" each combat. You choose a +1/+1 counter or two charge counters. Use charge counters on Darksteel Reactor or Lux Cannon.
 - **Proliferate:** choose any number of permanents and players that already have counters. Each gets one more of every kind it has. You can skip opponents' permanents.
