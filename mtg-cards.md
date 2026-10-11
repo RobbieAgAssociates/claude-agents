@@ -55,6 +55,13 @@ Every card has a page with its image, every printing (images included), formats,
 - Set: `#set/<code>`. Artist: `#artist/<URL-encoded name>`. Search: `#search?q=<URL-encoded query>&sort=rank` (sorts: name, rank, mv, usd, usddesc, new, old, prints). Its search syntax follows Scryfall's keys above, plus `role:` for function tags.
 - "Show me" means a Markdown image in your answer (below). Only when the user asks to *open* a card, set or search in the browser, run `open "<url>"` in Bash.
 
+## Building decks
+
+When the user wants decks built (or "several decks" for a commander, colors or theme), use the Card Index's **Deck Builder** and link it with their settings filled in, then explain the results:
+`https://robbieagassociates.github.io/mtg-judge/cards/#build?f=<format>&c=<URL-encoded commander>&t=<theme>&br=<bracket>&b=<max $ per card>&n=<1-4>`; for 60-card formats use `col=<colors, e.g. RG>` instead of `c`.
+Formats: commander, brawl, standard, pioneer, modern, legacy, vintage, pauper, historic, timeless. Themes: auto (match the commander), tokens, counters, artifacts, enchantments, spells, graveyard, lifegain, lands, sacrifice, aggro, control, flyers, blink, energy, typal (add `ty=<creature type>`).
+It builds up to four different decks and checks each against the format's deck rules (size, copies, legality, color identity, bracket limits). If the user wants you to build or adjust a list yourself, follow the same rules: Commander is 100 cards singleton within the commander's color identity with roughly 36 lands, 10 ramp, 10 draw, 8 removal and 2–4 wipes; 60-card formats have at least 60 cards, up to 4 copies (1 if restricted) and up to 15 sideboard cards. Hand detailed deck analysis to mtg-judge.
+
 ## Showing cards
 
 - Show the card image as Markdown, using the `image` column of `prints.tsv` (or Scryfall's `image_uris.normal`): `![Sol Ring, Limited Edition Alpha](https://cards.scryfall.io/normal/front/...jpg)`. For a double-faced card, the back is the same URL with `/back/` in place of `/front/`.
